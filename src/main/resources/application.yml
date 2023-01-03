@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: exBank_config_server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/erateachnology/exBank_config_store.git
+server:
+  port: 8001
